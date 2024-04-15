@@ -17,7 +17,7 @@ try:
     mydb.commit()
 except:
     pass
-api="AIzaSyAlSFmrcmLt12GfTMoUvv38VmZYKo3qEO4"
+api="enter your api key"
 youtube=googleapiclient.discovery.build("youtube","v3",developerKey=api)
 # function to get comment details
 def c4(video_id):
