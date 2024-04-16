@@ -27,7 +27,7 @@ password = ''
 host = 'localhost'  
 database_name = 'capstone1'
 engine = create_engine(f'mysql+mysqlconnector://{username}:{password}@{host}/{database_name}')
-api="AIzaSyAlSFmrcmLt12GfTMoUvv38VmZYKo3qEO4"
+api="enter your apikey"
 youtube=googleapiclient.discovery.build("youtube","v3",developerKey=api)
 #to get channel details
 def c4(video_id):# to get comment details
