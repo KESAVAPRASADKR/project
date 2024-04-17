@@ -83,11 +83,11 @@ def c3(video_id):
         try:
             l=response3['items'][0]['statistics']['likeCount']
         except:
-            l="none"
+            l="0"
         try:
             cc=response3['items'][0]['statistics']['commentCount']
         except:
-            cc="none"
+            cc="0"
         date=response3['items'][0]['snippet']['publishedAt']
         duration=response3['items'][0]['contentDetails']['duration']
         channel_name1.append(name)
